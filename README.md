@@ -72,7 +72,8 @@ El cliente, desarrollado en Node.js, se convierte en un ejecutable `.exe` utiliz
    cd interfaz_servidor
    npm install
    npm run build
-
+   ```
+3. **interfaz y servdor:** copear la caperta `interfaz_servidor/dist` a la carpeta `servidor\public`
 ### SERVIDOR
 
 1. **Instalar dependencias:**
