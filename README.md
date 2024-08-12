@@ -40,11 +40,59 @@ El cliente, desarrollado en Node.js, se convierte en un ejecutable `.exe` utiliz
 - **Transferencia de archivos**: Envía y recibe archivos según las instrucciones del servidor.
 - **Captura de pantalla**: Captura la pantalla del dispositivo y la envía al servidor.
 
-## Uso
 
-Para ejecutar este proyecto, debes tener Node.js instalado. Sigue estos pasos:
 
-1. Clona este repositorio:
-   ```bash
+
+
+## 🚀 Despliegue del Proyecto
+
+### INTERFAZ SERVIDOR
+
+1. **Clonar el proyecto:**
+
    git clone https://github.com/tu-usuario/rat-websocket-nodejs.git
 
+2. **Configurar la URL del servidor:**
+
+   Edita el archivo `interfaz_servidor/src/app/configuracion.js` y configura la URL del servidor en el cual se va a desplegar.
+
+3. **Instalar dependencias y compilar el proyecto React:**
+
+   cd interfaz_servidor
+   npm install
+   npm run build
+
+### SERVIDOR
+
+1. **Instalar dependencias:**
+
+   cd servidor
+   npm install
+
+2. **Configurar el archivo `.env`:**
+
+   Crea o edita el archivo `.env` en el directorio del servidor con el siguiente contenido:
+
+   PUERTO=42474
+   TOKEN_API=@@SICARIUS
+   USUARIO=SICARIUS
+   PASSWORD=SICARIUS
+
+3. **Desplegar en un hosting o servidor que admita Node.js.**
+
+### CLIENTE
+
+1. **Instalar dependencias:**
+
+   cd cliente
+   npm install
+
+2. **Instalar `pkg` para generar el ejecutable:**
+
+   npm install -g pkg
+
+3. **Generar el ejecutable:**
+
+   pkg . -t node18-win-x64 --node-version 18 --output mi_proyecto.exe
+
+   Si encuentras un error al generar el ejecutable, instala Node.js versión 18 utilizando `nvm`, reinstala `pkg`, y vuelve a ejecutar el comando.
