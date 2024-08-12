@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "servidor"
+		},
+		{
+			"path": "cliente"
+		},
+		{
+			"path": "interfaz_servidor"
+		}
+	]
+}
