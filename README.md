@@ -128,9 +128,9 @@ Si deseas obtener más detalles sobre esta versión mejorada o acceder al códig
 
 ## Video demostrativo
 
-Para ver cómo funciona esta herramienta, te dejo un video demostrativo en el siguiente enlace:
+Puedes ver el video demostrativo haciendo clic en el siguiente enlace:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LsA0BP-JBuY?si=GaQC4jt-osGdZReq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[**Ver video demostrativo**](https://www.youtube.com/watch?v=LsA0BP-JBuY)
 
 ---
 
