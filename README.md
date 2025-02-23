@@ -86,9 +86,9 @@ El cliente, desarrollado en Node.js, se convierte en un ejecutable `.exe` utiliz
    Crea o edita el archivo `.env` en el directorio del servidor con el siguiente contenido:
 ```bash
    PUERTO=42474
-   TOKEN_API=@@SICARIUS
-   USUARIO=SICARIUS
-   PASSWORD=SICARIUS
+   TOKEN_API=
+   USUARIO=
+   PASSWORD=
 ```
 
 3. **Desplegar en un hosting o servidor que admita Node.js.**
