@@ -122,8 +122,7 @@ Este es un proyecto mejorado de **RAT-WebSocket-NodeJS**, una herramienta de acc
 
 - **Servidor en Node.js**: Continuamos utilizando Node.js para el servidor, pero con una implementación optimizada.
 - **Cliente en Golang**: El cliente ahora está escrito en **Golang** y compilado, lo que lo hace más eficiente y difícil de detectar por soluciones de seguridad.
-- **Despliegue en hosting compartido**: Gracias a las mejoras en la arquitectura, el servidor ahora puede desplegarse en servicios de **hosting compartido**, lo que significa que no es necesario ejecutar todo desde la memoria RAM, mejorando la eficiencia y la estabilidad.
-
+- **Despliegue en hosting compartido**: Gracias a las mejoras en la arquitectura, el servidor ahora puede desplegarse en servicios de **hosting compartido**.
 Si deseas obtener más detalles sobre esta versión mejorada o acceder al código fuente, **no dudes en contactarme por privado**.
 
 ## Video demostrativo
