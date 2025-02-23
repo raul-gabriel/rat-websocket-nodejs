@@ -109,3 +109,29 @@ El cliente, desarrollado en Node.js, se convierte en un ejecutable `.exe` utiliz
    pkg . -t node18-win-x64 --node-version 18 --output mi_proyecto.exe
 ```
    Si encuentras un error al generar el ejecutable, instala Node.js versión 18 utilizando `nvm`, reinstala `pkg`, y vuelve a ejecutar el comando.
+
+
+
+
+
+   # RAT-WebSocket-NodeJS - Versión Mejorada
+
+Este es un proyecto mejorado de **RAT-WebSocket-NodeJS**, una herramienta de acceso remoto (RAT) que originalmente estaba desarrollada en **Node.js** y **JavaScript**. En esta nueva versión, el **servidor** está implementado en **Node.js**, mientras que el **cliente** ahora está desarrollado en **Golang** y compilado a un archivo ejecutable, lo que mejora significativamente el rendimiento y la compatibilidad.
+
+## Mejoras
+
+- **Servidor en Node.js**: Continuamos utilizando Node.js para el servidor, pero con una implementación optimizada.
+- **Cliente en Golang**: El cliente ahora está escrito en **Golang** y compilado, lo que lo hace más eficiente y difícil de detectar por soluciones de seguridad.
+- **Despliegue en hosting compartido**: Gracias a las mejoras en la arquitectura, el servidor ahora puede desplegarse en servicios de **hosting compartido**, lo que significa que no es necesario ejecutar todo desde la memoria RAM, mejorando la eficiencia y la estabilidad.
+
+Si deseas obtener más detalles sobre esta versión mejorada o acceder al código fuente, **no dudes en contactarme por privado**.
+
+## Video demostrativo
+
+Para ver cómo funciona esta herramienta, te dejo un video demostrativo en el siguiente enlace:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LsA0BP-JBuY?si=GaQC4jt-osGdZReq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+
